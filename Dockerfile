@@ -35,4 +35,4 @@ RUN pip install --isolated --no-input --compile --exists-action=a --disable-pip-
 # 3. Define process
 # ---------------------------------------------------------------------
 EXPOSE 5555
-CMD ["flower", "--address=127.0.0.1", "--port=5555", "--inspect", "--log-to-stderr"]
+CMD ["flower", "--address=0.0.0.0", "--port=5555", "--inspect", "--log-to-stderr", "--logging=debug"]
