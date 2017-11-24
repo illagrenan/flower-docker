@@ -29,7 +29,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 # ---------------------------------------------------------------------
 # 2. Requirements
 # ---------------------------------------------------------------------
-RUN pip install --isolated --no-input --upgrade --compile --exists-action=a --disable-pip-version-check --use-wheel --no-cache-dir 'flower~=0.9.2'
+RUN pip install --isolated --no-input --compile --exists-action=a --disable-pip-version-check --use-wheel --no-cache-dir 'flower~=0.9.2'
 
 # ---------------------------------------------------------------------
 # 3. Define process
