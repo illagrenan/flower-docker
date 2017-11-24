@@ -14,7 +14,7 @@
 #     >>> docker run --rm -it -p 5555:5555 illagrenan/flower
 #
 # =====================================================================
-FROM python:3.6.3
+FROM python:3.6.3-alpine3.6
 LABEL authors="Vašek Dohnal <vaclav.dohnal@gmail.com>"
 
 # ---------------------------------------------------------------------
